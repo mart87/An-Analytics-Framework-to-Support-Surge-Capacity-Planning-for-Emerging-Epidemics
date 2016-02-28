@@ -311,8 +311,11 @@ $192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,1
 1,105,27,25,0,0,0,0,0,64,0,-1--1--1,,1|(301,341)|
 ///---\\\
 :L<%^E!@
+1:Proportion Infected Sensitivity.vdf
+1:Total Capacity Sensitivity.vdf
+1:Base Model.vdf
 1:Current.vdf
-9:Current
+9:Proportion Infected Sensitivity
 22:$,Dollar,Dollars,$s
 22:Hour,Hours
 22:Month,Months
@@ -328,7 +331,7 @@ $192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,1
 27:2,
 34:0,
 4:Time
-5:Death
+5:Total Infected
 35:Date
 36:YYYY-MM-DD
 37:2000
