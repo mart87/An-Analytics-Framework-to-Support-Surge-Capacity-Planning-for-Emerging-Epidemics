@@ -13,7 +13,7 @@ Death=0; Recovered=0;
 
 #  Parameters
 R0=2; Recovery_Delay=2; Total_Population=100000;
-Total_Capacity=500;PropA=.3;
+Total_Capacity=500;PropM=.6;
 
 # Vector of paramaters
 par <- c(R0=R0,Recovery_Delay=Recovery_Delay, Total_Population=Total_Population,
@@ -25,7 +25,7 @@ SurgeCapacityModel <- function(par) {
   derivs <- function(t, state, par) {
     with(as.list(c(state, par)),{
       # Proportion Asymptomatic
-      PropM=.6;
+      PropA=.3
       # Proportion Critical
       PropC= 1-(PropA+PropM);  
       
